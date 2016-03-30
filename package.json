@@ -1,0 +1,35 @@
+{
+  "name": "teo-streamer-extension",
+  "version": "1.0.0",
+  "description": "Teo.JS streamer extension for streaming videos and music.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antyfive/teo-streamer-extension.git"
+  },
+  "keywords": [
+    "teo.js",
+    "teo",
+    "extension",
+    "middleware",
+    "streaming",
+    "streamer",
+    "music",
+    "video"
+  ],
+  "author": {
+    "name": "Andrew Teologov",
+    "email": "teologov.and@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antyfive/teo-streamer-extension/issues"
+  },
+  "homepage": "https://github.com/Antyfive/teo-streamer-extension#readme",
+  "engines": {
+    "node": ">= 4"
+  }
+}
