@@ -31,5 +31,9 @@
   "homepage": "https://github.com/Antyfive/teo-streamer-extension#readme",
   "engines": {
     "node": ">= 4"
+  },
+  "dependencies": {
+    "mime": "^1.3.4",
+    "throttle": "^1.0.3"
   }
 }
