@@ -24,7 +24,7 @@ module.exports = {
         appContext.middleware(function* (next) {
             if (this.req.headers.range) {
                 let contentType = mime.lookup(this.extension || this.req.headers.accept || "html");
-                streamer(this.req, this.res, this.config, path.normalize(path.join(this.config.get("appDir"), this.pathname)), contentType);
+                streamer(this.req, this.res, config, path.normalize(path.join(this.config.get("appDir"), this.pathname)), contentType);
             }
             else {
                 yield next;
